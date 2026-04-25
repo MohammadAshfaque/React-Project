@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 const Nav = () => {
 
     const [products] = useContext(ProductContext);
+    console.log(products)
 
     let distinct_category =
        products && products.reduce((acc, cv) => [...acc, cv.category], [])
