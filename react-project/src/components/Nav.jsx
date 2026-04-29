@@ -16,7 +16,7 @@ const Nav = () => {
     }
   return (
     <nav className='w-[15%] h-full bg-zinc-50 flex flex-col items-center pt-5'>
-          <a className='px-5 py-2 border rounded border-blue-200 text-blue-300'
+          <a className='px-5 py-2 border rounded border-blue-600 text-red-600'
           href='/create'>
             Add new  Products
           </a>
